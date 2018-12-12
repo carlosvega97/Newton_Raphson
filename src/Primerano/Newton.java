@@ -72,7 +72,7 @@ public class Newton
 		}while (!(resultadoNOderivado <= Math.pow(10, -error)));
 		System.out.println();
 		System.out.println("El resultado final: " + resultadoNOderivado);
-		System.out.println("LA RAIZ DE LA FUNCIÓN ES: " + resultado);
+		System.out.println("La raiz de la función es: " + resultado);
 		System.out.println("El nº de iteraciones ha sido: " +contador);
 
 	}
